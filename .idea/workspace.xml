@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="026915c6-0501-4926-ba6a-1d895ff8b5bb" name="Default Changelist" comment="added BorderDemo2" />
+    <list default="true" id="026915c6-0501-4926-ba6a-1d895ff8b5bb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579785183625</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added BorderDemo2">
+      <created>1579785793140</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579785793140</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -159,7 +166,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added BorderDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added BorderDemo" />
+    <MESSAGE value="added BorderDemo2" />
+    <option name="LAST_COMMIT_MESSAGE" value="added BorderDemo2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1579779762480">
@@ -170,10 +178,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1579757876546" />
-    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1579785297237">
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1579785792055">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579785297237" />
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579785792055" />
     <state x="129" y="60" key="DiffContextDialog" timestamp="1579785291219">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
