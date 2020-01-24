@@ -32,7 +32,6 @@ public class Buttondemo extends JFrame {
         obj.setLocationRelativeTo(null);
         obj.setResizable(false);
         obj.setVisible(true);
-
     }
 
 }
