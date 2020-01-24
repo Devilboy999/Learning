@@ -57,6 +57,7 @@ public class LookFeel extends JFrame implements ItemListener {
             if(r3.getModel().isSelected()){
                 UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
             }
+            //Dont forget this guy
             SwingUtilities.updateComponentTreeUI(c);
         } catch (Exception e) {
             System.out.println("Error");
