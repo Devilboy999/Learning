@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="026915c6-0501-4926-ba6a-1d895ff8b5bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/swing/ButtonToImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swing/CheckRadio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swing/LookFeel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/Buttondemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swing/Buttondemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +47,7 @@
       <recent name="D:\Workspace\MyGraphics\files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CheckRadio">
-    <configuration name="BorderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swing.BorderDemo" />
-      <module name="MyGraphics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="swing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LookFeel">
     <configuration name="ButtonToImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="swing.ButtonToImage" />
       <module name="MyGraphics" />
@@ -102,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swing.FrameDemo2" />
+    <configuration name="LookFeel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swing.LookFeel" />
       <module name="MyGraphics" />
       <extension name="coverage">
         <pattern>
@@ -115,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyChoiceMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AWT.MyChoiceMenu" />
+      <module name="MyGraphics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AWT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LookFeel" />
+        <item itemvalue="Application.MyChoiceMenu" />
         <item itemvalue="Application.CheckRadio" />
         <item itemvalue="Application.ButtonToImage" />
         <item itemvalue="Application.Buttondemo" />
-        <item itemvalue="Application.BorderDemo" />
-        <item itemvalue="Application.FrameDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579846884879</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added BorderDemo3">
+      <created>1579858143132</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579858143132</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -216,10 +221,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="added BorderDemo3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1579856384055">
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1579859315665">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579856384055" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1579859315665" />
     <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579757876546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -228,38 +233,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="402" y="80" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1579844773641" />
-    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1579846883687">
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1579858141825">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579846883687" />
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579858141825" />
     <state x="129" y="60" key="DiffContextDialog" timestamp="1579846905113">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="60" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1579846905113" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579858032539">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579871191704">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579858032539" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579858032539">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579871191704" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579871191704">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579858032539" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579858032539">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579871191704" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579871191704">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579858032539" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579858032539">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579871191704" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579871191704">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579858032539" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579871191704" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1579783322164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579783322164" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1579846911355">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1579858152218">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579846911355" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579858152218" />
     <state x="390" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1579844174200">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,0 +1,76 @@
+package swing;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+
+public class LookFeel extends JFrame implements ItemListener {
+    JButton b;
+    JCheckBox cb;
+    JTextField tf;
+    JRadioButton r1, r2, r3;
+    ButtonGroup bg;
+    Container c;
+
+    LookFeel() {
+        c = this.getContentPane();
+        c.setLayout(null);
+        b = new JButton("Button");
+        cb = new JCheckBox("Checkbox");
+        tf = new JTextField("Text Field", 15);
+        r1 = new JRadioButton("Metal");
+        r2 = new JRadioButton("Motif");
+        r3 = new JRadioButton("Windows");
+        bg = new ButtonGroup();
+        bg.add(r1);
+        bg.add(r2);
+        bg.add(r3);
+        b.setBounds(100, 50, 75, 40);
+        cb.setBounds(100, 100, 100, 40);
+        tf.setBounds(100, 150, 100, 40);
+        r1.setBounds(50, 250, 100, 30);
+        r2.setBounds(150, 250, 100, 30);
+        r3.setBounds(250, 250, 100, 30);
+
+        c.add(b);
+        c.add(cb);
+        c.add(tf);
+        c.add(r1);
+        c.add(r2);
+        c.add(r3);
+        r1.addItemListener(this);
+        r2.addItemListener(this);
+        r3.addItemListener(this);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+
+    @Override
+    public void itemStateChanged(ItemEvent itemEvent) {
+        try {
+            if (r1.getModel().isSelected()) {
+                UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
+            }
+            if (r2.getModel().isSelected()) {
+                UIManager.setLookAndFeel("com.sun.java.swing.plaf.motif.MotifLookAndFeel");
+            }
+            if(r3.getModel().isSelected()){
+                UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
+            }
+            SwingUtilities.updateComponentTreeUI(c);
+        } catch (Exception e) {
+            System.out.println("Error");
+        }
+
+    }
+
+    public static void main(String[] args){
+
+        LookFeel lf = new LookFeel();
+        lf.setSize(400,400);
+        lf.setTitle("Look and Feel");
+        lf.setResizable(false);
+        lf.setLocationRelativeTo(null);
+        lf.setVisible(true);
+    }
+}
