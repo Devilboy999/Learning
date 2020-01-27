@@ -5,6 +5,9 @@ import javax.swing.table.JTableHeader;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Vector;
 
 public class MyTable extends JFrame implements ActionListener {
@@ -19,7 +22,7 @@ public class MyTable extends JFrame implements ActionListener {
         row.add("22,000.00");
         data.add(row);
         row = new Vector<>();
-        row.add("Srinivas Kumar");
+        row.add("Rama Roa");
         row.add("Programmer");
         row.add("18,000.50");
         data.add(row);
@@ -33,6 +36,12 @@ public class MyTable extends JFrame implements ActionListener {
         cols.add("Employee Name");
         cols.add("Designation");
         cols.add("Salary");
+        Collections.sort(data,new Comparator<Vector<String>>(){
+            @Override  public int compare(Vector<String> v1, Vector<String> v2) {
+                System.out.println(v1.get(0));
+                System.out.println(v2.get(0));
+                return v1.get(0).compareTo(v2.get(0)); //If you order by 2nd element in row
+            }});
         //Data is a two dimensional array containing data of the table, cols is one dimensional array containing Column Names
         JTable tab = new JTable(data, cols);
         tab.setBorder(BorderFactory.createLineBorder(Color.green, 2));
@@ -47,6 +56,7 @@ public class MyTable extends JFrame implements ActionListener {
         c.add("North", head);
         c.add("Center", tab);
         c.add("South", addData);
+        System.out.println(data.get(0).get(0).compareTo(data.get(1).get(0)));
 
 
     }
@@ -71,6 +81,13 @@ public class MyTable extends JFrame implements ActionListener {
 
     public void setTableData(Vector<String> acceptData){
         data.add(acceptData);
+        //ananymous sort class
+        Collections.sort(data,new Comparator<Vector<String>>(){
+            @Override  public int compare(Vector<String> v1, Vector<String> v2) {
+                return v1.get(0).compareTo(v2.get(0));
+            }});
         c.repaint();
     }
+
+
 }

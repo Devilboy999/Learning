@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="026915c6-0501-4926-ba6a-1d895ff8b5bb" name="Default Changelist" comment="Added other multiFrame MyTable">
-      <change afterPath="$PROJECT_DIR$/src/swing/MyTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swing/MyTableGetter.java" afterDir="false" />
+    <list default="true" id="026915c6-0501-4926-ba6a-1d895ff8b5bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/swing/MySort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/swing/LookFeel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/swing/LookFeel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swing/LookFeel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swing/LookFeel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swing/MyTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swing/MyTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swing/MyTableGetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swing/MyTableGetter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,19 +50,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.MyTable">
-    <configuration name="ButtonToImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swing.ButtonToImage" />
-      <module name="MyGraphics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="swing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CheckRadio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="swing.CheckRadio" />
       <module name="MyGraphics" />
@@ -103,6 +89,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swing.MySort" />
+      <module name="MyGraphics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="swing.MyTable" />
       <module name="MyGraphics" />
@@ -119,10 +118,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MyTable" />
+        <item itemvalue="Application.MySort" />
         <item itemvalue="Application.LookFeel" />
         <item itemvalue="Application.MyChoiceMenu" />
         <item itemvalue="Application.CheckRadio" />
-        <item itemvalue="Application.ButtonToImage" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579872194261</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added other multiFrame MyTable">
+      <created>1580107985822</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580107985822</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -240,10 +246,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added other multiFrame MyTable" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1580105767680">
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1580117539102">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1580105767680" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1580117539102" />
     <state x="534" y="256" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1579757876546">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -252,38 +258,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="402" y="80" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1366.728@0.0.1366.728" timestamp="1579844773641" />
-    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1580107926016">
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1580121097751">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580107926016" />
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580121097751" />
     <state x="129" y="60" key="DiffContextDialog" timestamp="1579846905113">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="60" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1579846905113" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1580107818428">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1580121097766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580107818428" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1580107818428">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580121097766" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1580121097766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580107818428" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1580107818428">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580121097766" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1580121097766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580107818428" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1580107818428">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580121097766" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1580121097766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580107818428" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580121097766" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1579783322164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579783322164" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1579872207457">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1580107996666">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579872207457" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580107996666" />
     <state x="390" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1580102669418">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -296,5 +302,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="120" width="585" height="488" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1580104363441" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1580115530358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580115530358" />
   </component>
 </project>

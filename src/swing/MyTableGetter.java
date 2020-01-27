@@ -38,7 +38,9 @@ public class MyTableGetter extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         Vector<String> row = new Vector<>();
-        row.add(name.getText());
+        String upperCase = name.getText().substring(0,1).toUpperCase()+ name.getText().substring(1);
+
+        row.add(upperCase);
         row.add(desig.getText());
         row.add(sal.getText());
         mt.setTableData(row);
