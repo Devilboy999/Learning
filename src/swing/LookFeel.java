@@ -19,7 +19,7 @@ public class LookFeel extends JFrame implements ItemListener {
         b = new JButton("Button");
         cb = new JCheckBox("Checkbox");
         tf = new JTextField("Text Field", 15);
-        r1 = new JRadioButton("Metal");
+        r1 = new JRadioButton("Metal",true);
         r2 = new JRadioButton("Motif");
         r3 = new JRadioButton("Windows");
         bg = new ButtonGroup();
